@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  margin: 5px 0 5px 5px;
+}
+
+th,
+td {
+  vertical-align: middle !important;
+  padding: 5px 10px 5px 5px;
+  border: 1px solid black !important;
+}
+
+tr {
+  border: 1px solid black !important;
+}
+
+.header-text {
+  font-family: "Paralines";
+  color: #c5050c;
+}
+
+/* colors */
+.bg-light {
+  background-color: #f9f9f9;
+}
+
+.back-primary {
+  background-color: #dadfe1 !important;
+}
+
+.primary {
+  color: #9b0000 !important;
+}
+
+.secondary {
+  color: #0479a8;
+}
+
+button {
+  width: 130px;
+}
+
+.w-30 {
+  width: 30%;
+}

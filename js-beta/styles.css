@@ -1,0 +1,56 @@
+.header-text {
+    font-family: "Paralines";
+    color: #c5050c;
+    margin-left: 10px;
+}
+
+p {
+    /* color for all normal texts */
+    color: #282728 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.btn-primary {
+    background-color: rgba(197, 5, 12, 0.2) !important;
+    border: 0 none !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold !important;
+    /* want to set the border with the color and width of choice 
+    so not use bootstrap at this point */
+    border-width: thin !important;
+    border-style: solid !important;
+    border-color: #282728 !important;
+}
+
+.btn-primary:hover {
+    background: rgba(197, 5, 12, 0.4) !important;
+    border-width: medium !important;
+}
+
+.btn-secondary {
+    background-color: rgba(197, 5, 12, 0.1) !important;
+    border: 0 none !important;
+    font-family: 'Times New Roman', Times, serif;
+    color: black !important;
+    /* want to set the border with the color and width of choice 
+    so not use bootstrap at this point */
+    border-width: thin !important;
+    border-style: solid !important;
+    border-color: #282728 !important;
+}
+
+.collapse {
+    padding-left: 10px;
+    background-color: white;
+    color: #282728 !important;
+    margin-top: 0;
+    padding: 5px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: #282728;
+    border-width: thin;
+}

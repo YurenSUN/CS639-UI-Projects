@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<main role="main">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Badger Bank">
+        <meta name="author" content="Cole Nelson, Yuren Sun">
+        <title>JavaScript Beta: Badger Bank</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+
+    <body style="background-color: rgba(4, 121, 168, 0.5); ">
+        <header class="navbar navbar-expand-md fixed-top p-0" style="background-color: #dadfe1;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Taxidea_taxus_%28Point_Reyes%2C_2007%29.jpg" height="auto" width="8%">
+            <h1 class="header-text">Badger Bank</h1>
+        </header>
+
+        <!-- center the grids -->
+        <div class="container-fluid" style="padding: 0% 8%;">
+            <!-- grids for left and right -->
+            <div class="container overflow-auto mx-0 mh-100" style="background-color: #f7f7f7; height: 100vh;">
+                <!-- to not be hiden by the header, mt in bootstrap is not enough -->
+                <br id="scroll-top"><br><br><br>
+                <div class="row pl-2">
+                    <h5>Welcome! Welcome to Badger Bank! Check out your account information.</h5>
+                </div>
+                <div class="row pl-2">
+                    <h5>Tip of the Day: Don't badger the environment, enroll in paperless statements today!</h5>
+                </div>
+                <br>
+                <div class="row pl-2">
+                    <div class="col-7 pl-1">
+                        <!-- left -->
+                        <h2>Your Checkings and Savings Accounts</h2>
+                        <!-- checking xxx126 -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-0 " data-toggle="collapse" aria-expanded="false" aria-controls="che126" data-target="#che126">
+							<h2 class= "float-left" style="color: black;">Checking Account xxx126</h2>
+							<h3 class = "mt-1 float-right" style="color: #282728;">Balance: 472.61</h3>
+						</button>
+                        <div class="collapse" id="che126">
+                            <div class="d-block mb-2 mt-2">
+                                <p class="mr-2 font-weight-bold d-inline">Balance:</p>
+                                <p class="d-inline"> 472.61</p>
+                            </div>
+                            <div class="d-block mb-2">
+                                <p class="mr-2 font-weight-bold d-inline">Interest Rate:</p>
+                                <p class="d-inline"> 0.00%</p>
+                            </div>
+
+                            <table class="table table-hover table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                        <th>Balance</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>09/13/2020</td>
+                                        <td>CHECK 192</td>
+                                        <td>-30.82</td>
+                                        <td>472.61</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09/02/2020</td>
+                                        <td>MNTHLY DPST UW PAYROLL</td>
+                                        <td>321.87</td>
+                                        <td>503.43</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08/27/2020</td>
+                                        <td>CHECK 191</td>
+                                        <td>-750.00</td>
+                                        <td>181.56</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08/14/2020</td>
+                                        <td>CHECK 188</td>
+                                        <td>-10.00</td>
+                                        <td>931.46</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08/02/2020</td>
+                                        <td>MNTHLY DPST UW PAYROLL</td>
+                                        <td>637.91</td>
+                                        <td>941.56</td>
+                                    </tr>
+                                    <tr>
+                                        <td>07/18/2020</td>
+                                        <td>VENMO</td>
+                                        <td>-25.00</td>
+                                        <td>303.65</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <br>
+
+                        <!--  saving 271 -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-0" data-toggle="collapse" aria-expanded="false" aria-controls="sav271" data-target="#sav271">
+							<h2 class= "float-left" style="color: black;">Savings Account xxx271</h2>
+							<h3 class = "mt-1 float-right" style="color: #282728;">Balance: 248.34</h3>
+						</button>
+                        <div class="collapse" id="sav271">
+                            <div class="d-block mb-2 mt-2">
+                                <p class="mr-2 font-weight-bold d-inline">Balance:</p>
+                                <p class="d-inline"> 248.34</p>
+                            </div>
+                            <div class="d-block mb-2">
+                                <p class="mr-2 font-weight-bold d-inline">Interest Rate:</p>
+                                <p class="d-inline"> 0.06%</p>
+                            </div>
+
+                            <table class="table table-hover table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                        <th>Balance</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>07/21/2020</td>
+                                        <td>TRANSFER FROM EXT. ACCT</td>
+                                        <td>67.23</td>
+                                        <td>248.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>07/01/2020</td>
+                                        <td>TRANSFER FROM EXT. ACCT</td>
+                                        <td>52.68</td>
+                                        <td>181.11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>04/06/2020</td>
+                                        <td>TRANSFER TO EXT. ACCT.</td>
+                                        <td>-127.63</td>
+                                        <td>128.43</td>
+                                    </tr>
+                                    <tr>
+                                        <td>03/11/2020</td>
+                                        <td>TRANSFER FROM EXT. ACCT</td>
+                                        <td>100.00</td>
+                                        <td>256.06</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02/14/2020</td>
+                                        <td>TRANSFER TO EXT. ACCT.</td>
+                                        <td>50.00</td>
+                                        <td>156.06</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/2020</td>
+                                        <td>INTEREST PAID</td>
+                                        <td>0.06</td>
+                                        <td>106.06</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <br>
+
+                        <!-- saving 918 -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-0" data-toggle="collapse" aria-expanded="false" aria-controls="sav918" data-target="#sav918">
+							<h2 class= "float-left" style="color: black;">Savings Account xxx918</h2>
+							<h3 class = "mt-1 float-right" style="color: #282728;">Balance: 5027.03</h3>
+						</button>
+                        <div class="collapse" id="sav918">
+                            <div class="d-block mb-2 mt-2">
+                                <p class="mr-2 font-weight-bold d-inline">Balance:</p>
+                                <p class="d-inline">5027.03</p>
+                            </div>
+                            <div class="d-block mb-2">
+                                <p class="mr-2 font-weight-bold d-inline">Interest Rate:</p>
+                                <p class="d-inline"> 0.06%</p>
+                            </div>
+
+                            <table class="table table-hover table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                        <th>Balance</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>01/01/2020</td>
+                                        <td>INTEREST PAID</td>
+                                        <td>3.01</td>
+                                        <td>5027.03</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09/01/2020</td>
+                                        <td>TRANSFER TO EXT. ACCT.</td>
+                                        <td>-5000.00</td>
+                                        <td>5204.02</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/2019</td>
+                                        <td>INTEREST PAID</td>
+                                        <td>6.01</td>
+                                        <td>10204.02</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/2018</td>
+                                        <td>INTEREST PAID</td>
+                                        <td>6.01</td>
+                                        <td>10198.01</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/2016</td>
+                                        <td>INTEREST PAID</td>
+                                        <td>6.00</td>
+                                        <td>10192.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/2015</td>
+                                        <td>INTEREST PAID</td>
+                                        <td>6.00</td>
+                                        <td>10186.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+
+                        <!-- statements -->
+                        <form method="get " class="mb-2" action="./account_info/account_statement.pdf ">
+                            <button type="submit " class="btn btn-secondary btn-lg rounded-0">Download Account Statements</button>
+                        </form>
+
+                        <form method="get " class="mb-2" action="./account_info/tax_information.pdf ">
+                            <button type="submit " class="btn btn-secondary btn-lg rounded-0">Download Tax Statements</button>
+                        </form>
+
+                        <p class="mt-4"><a href="#scroll-top" class="btn btn-link rounded-0" type="button" style="color: rgba(197, 5, 12, 0.5)">Back to top</a></p>
+                        <!-- to not be hiden by the footer, mb in bootstrap is not enough -->
+                        <br><br><br>
+                    </div>
+
+                    <div class="col-5 pl-0">
+                        <!-- right -->
+                        <!-- Account -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-0" data-toggle="collapse" aria-expanded="false" aria-controls="profile" data-target="#profile">
+							<h2 class= "float-left" style="color: black;">Your Account</h2>
+						</button>
+
+                        <div class="collapse" id="profile">
+                            <div class="d-block mb-2 mt-2">
+                                <p class="mr-2 font-weight-bold d-inline">Name:</p>
+                                <p class="d-inline"> Bucky Badger</p>
+                            </div>
+                            <div class="d-block mb-2">
+                                <p class="mr-2 font-weight-bold d-inline">Email:</p>
+                                <p class="d-inline"> bucky.badger@example.com</p>
+                            </div>
+                            <div class="d-block mb-2">
+                                <p class="mr-2 font-weight-bold d-inline">Phone Number:</p>
+                                <p class="d-inline"> 555.555.1234</p>
+                            </div>
+                            <div class="d-block mb-2">
+                                <p class="mr-2 font-weight-bold d-inline">Enrolled in paperless statements:</p>
+                                <p class="d-inline" id="paperlessEnrollment">false</p>
+                            </div>
+                            <form>
+                                <button type="submit" class="btn-secondary mb-2 rounded-0" formaction='javascript:togglePaperlessEnrollment();'>Enroll/Unenroll</button>
+                            </form>
+                        </div>
+
+                        <br>
+                        <!-- beneficiaries -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-0" data-toggle="collapse" aria-expanded="false" aria-controls="bene" data-target="#bene">
+							<h2 class= "float-left"  style="color: black;">Your Beneficiaries</h2>
+						</button>
+
+                        <div class="collapse" id="bene">
+                            <table class="table table-hover table-sm mb-1 mt-2">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td>Goldy Golpher</td>
+                                    <td>goldy.gopher@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Pioneer Pete</td>
+                                    <td>pioneer.pete@example.com</td>
+                                </tr>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <form>
+                                <button type="submit " class="btn-secondary mb-1 rounded-0" formaction='javascript:addBeneficiary();'>Add Beneficiary</button>
+                            </form>
+                        </div>
+
+                        <br>
+
+                        <form>
+                            <button type="submit " class="btn btn-primary btn-lg mb-2 rounded-0" formaction='javascript:logout();' style="color:black "><h2>Logout</h2></button>
+                        </form>
+
+                        <!-- to not be hiden by the footer, mb in bootstrap is not enough -->
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="navbar fixed-bottom justify-content-end h-10" style="background-color: #dadfe1;">
+            <p class="mr-2 font-weight-bold">Contact Us:</p>
+            <p>
+                Have a question? Contact us at 555.555.4321 or by emailing badgerbank@example.com
+            </p>
+            <br>
+        </footer>
+
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+<script src="script.js "></script>
+<!-- bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+</body>
+
+</html>
