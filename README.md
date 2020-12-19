@@ -42,3 +42,38 @@ Implement functionalities for showing and rating course taken, generating and sh
 
 Examine the web application using Heuristic Evaluation, redesign to improve usability and implement the redesign.
 
+## React Native
+
+An mobile app for a fitness tracker on IOS platform, designed in iPhone 8 size.
+
+### react_native1_alpha
+
+Basic functions for the fitness tracker app to sign up/log in/edit profile.
+
+### react_native1_beta
+
+Prototypes for the functionalalities in react_native2
+
+### react_native2_alpha
+
+Functionalities for tracking and showing meals and exercises/ compared the tracking info with goals
+
+### react_native2_beta
+
+Accessible design
+
+## Dialogflow
+
+A dialogflow agent built on google dialogflow platform
+
+### Dialogflow_alpha
+
+Experience Prototyping Conversational Interactions, entities, traning phrases, and desired responses
+
+### Dialogflow_beta
+
+Functionalities with webhook and agent on google dialogflow platform
+
+### Dialogflow_Gamma
+
+Usability testing
